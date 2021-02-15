@@ -1,19 +1,26 @@
-#Câmbio
+# Câmbio
 ---
 
 Este projeto conssite em um site que exibe a cotação de diversas moedas em relação ao real, permite ao usuário realizar consultas e favoritar determinadas moeda.
 
-##Objetivo
+## Objetivo
 ---
 
 Este projeto tem como objetivo o aprendizado de desenvolvimento web frontend.
 
-##Como Funciona
+## Tecnologias Usadas
+---
+
+- JavaScript
+- HTML
+- CSS
+
+## Como Funciona
 ---
 
 Uma vez carregada a página ela vais ler um arquivo, localizado em `/datas/database.csv`, que contém a cotação de todas as moedas. A fonte deste arquivo é o [Banco Central do Brasil](https://www.bcb.gov.br/estabilidadefinanceira/cotacoestodas).
 
-##Como Usar
+## Como Usar
 ---
 
 Estas são as funcionalidades do site:
@@ -29,7 +36,7 @@ Estas são as funcionalidades do site:
 - Na aba *Favoritos* o usuário pode ver todas as moedas que marcou como favorito.
   ![Tela Favoritos](/img/favorates.png "Tela Favoritos")
 
-#Licença
+# Licença
 ---
 
 MIT
