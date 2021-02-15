@@ -1,6 +1,6 @@
 let database = null;
 
-fetch('/cambio//datas/database.csv')
+fetch('/cambio/datas/database.csv')
     .then(response => response.text())
     .then(text => {
         database = parseFromCsv(text);

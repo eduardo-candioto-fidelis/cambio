@@ -1,4 +1,4 @@
-fetch('/cambio//datas/database.csv')
+fetch('/cambio/datas/database.csv')
     .then(response => response.text())
     .then(text => {
         const database = parseFromCsv(text);
